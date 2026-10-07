@@ -1,0 +1,21 @@
+[project]
+name = "shopease-customer-churn-prediction"
+version = "0.1.0"
+description = "End-to-end e-commerce customer churn prediction and retention segmentation project."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "joblib",
+    "jupyter",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "requests",
+    "scikit-learn",
+    "seaborn",
+    "xgboost",
+]
+
+[tool.uv]
+package = false

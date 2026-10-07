@@ -1,0 +1,14 @@
+.venv/
+.uv-cache/
+.matplotlib-cache/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Large/generated project artifacts
+data/raw/*.xlsx
+data/processed/*.csv
+models/*.pkl
+reports/*.csv
+reports/figures/*.png
